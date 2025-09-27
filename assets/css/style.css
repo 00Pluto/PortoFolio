@@ -1,0 +1,167 @@
+/* Porto Solar System Theme */
+
+body.bg-space {
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background: rgba(20,24,38,0.85);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: #ffd700;
+}
+
+nav a {
+    color: #fff;
+    margin-left: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #fdb813;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.hero .orbit.earth {
+    width: 90px; height: 90px;
+    margin: 0 auto 1.5rem auto;
+    background: url('../images/earth.png') no-repeat center/contain;
+    display: block;
+}
+
+.accent {
+    color: #fdb813;
+}
+
+.featured-projects,
+.blog-list,
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.project-card,
+.blog-card {
+    background: rgba(30,34,54,0.88);
+    border-radius: 12px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.25);
+    width: 320px;
+    padding: 1.5rem;
+    text-align: left;
+    transition: transform 0.2s;
+}
+
+.project-card:hover,
+.blog-card:hover {
+    transform: translateY(-6px) scale(1.03);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.solar-animation {
+    position: relative;
+    height: 180px;
+    margin-top: 3rem;
+}
+.sun {
+    position: absolute;
+    left: 50%; top: 70px;
+    width: 48px; height: 48px;
+    background: radial-gradient(circle, #ffd700 0%, #fdb813 100%);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 24px #ffd700, 0 0 80px #fdb81366;
+}
+.planet {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.92;
+}
+.planet.mercury { left: 30%; top: 95px; width: 12px; height: 12px; background: #b6b6b6; }
+.planet.venus { left: 37%; top: 80px; width: 16px; height: 16px; background: #e0c16c; }
+.planet.earth { left: 45%; top: 60px; width: 20px; height: 20px; background: #4d8af0; }
+.planet.mars { left: 56%; top: 108px; width: 16px; height: 16px; background: #d14d24; }
+
+.page-title {
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 2rem;
+    color: #ffd700;
+    letter-spacing: 1px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 2.5rem auto;
+    background: rgba(30,34,54,0.92);
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+}
+
+.contact-form label {
+    color: #ffd700;
+    margin-bottom: 0.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: #232848;
+    color: #fff;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 0.8rem 1.2rem;
+    background: #ffd700;
+    border: none;
+    border-radius: 6px;
+    color: #232848;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contact-form button:hover {
+    background: #fdb813;
+}
+
+footer {
+    text-align: center;
+    padding: 1.8rem 0 1rem 0;
+    color: #bbb;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
