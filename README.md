@@ -11,7 +11,7 @@ Built with HTML, CSS, and JavaScript. Deploy on GitHub Pages.
 - Downloadable CV
 - Solar system visuals (My personal touch, if you copy the repo, add your own touch!)
 
-## Getting Started For Those who want to replicate!
+## How To Replicate!
 
 1. **Copy this repo**
 2. Replace placeholder images and text with your own.
