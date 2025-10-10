@@ -33,11 +33,20 @@ nav a:hover {
     color: #2138bb;
 }
 
-.hero {
+.intro {
     text-align: center;
     margin-top: 4rem;
 }
 
+.about {
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #fff;
+
+}
 .accent {
     color: #202a66;
 }
