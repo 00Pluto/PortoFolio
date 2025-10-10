@@ -9,15 +9,7 @@ Built with HTML, CSS, and JavaScript. Deploy on GitHub Pages.
 - Blog section
 - Contact form
 - Downloadable CV
-- Solar system visuals (My personal touch, if you copy the repo, add your own touch!)
-
-## How To Replicate!
-
-1. **Copy this repo**
-2. Replace placeholder images and text with your own.
-3. Add your CV as `assets/cv.pdf`
-4. Commit and push to your repository.
-5. Enable GitHub Pages (Settings > Pages > Source: `main` branch `/root`).
+- Solar system visuals TBA (My personal touch, if you copy the repo, add your own touch!)
 
 ## Customization
 
