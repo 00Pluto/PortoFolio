@@ -1,5 +1,6 @@
 body.bg-space {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background-color: #090a0f;
+    background: radial-gradient(circle at bottom, #1b2735 0%, #090a0f 100%);
     color: #fff;
     font-family: "Times New Roman", Times, serif;
     margin: 0;
