@@ -142,3 +142,11 @@ footer {
     font-size: 1rem;
     margin-top: 2rem;
 }
+
+.star{
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    z-index: -1;
+}
+
