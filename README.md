@@ -9,7 +9,7 @@ Built with HTML, CSS, and JavaScript. Deploy on GitHub Pages.
 - Blog section
 - Contact form
 - Downloadable CV
-- Solar system visuals TBA (My personal touch, if you copy the repo, add your own touch!)
+- Solar system visuals TBA (My personal touch)
 
 ## Customization
 
